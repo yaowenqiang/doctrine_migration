@@ -1,13 +1,19 @@
 <?php
-
-use Doctrine\ORM\Mapping as ORM;
-
 /**
  *
  * Created by PhpStorm.
  * User: jacky.yao
  * Date: 2020/4/20
  * Time: 22:37
+ */
+
+
+use Doctrine\ORM\Mapping as ORM;
+
+
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="product")
  */
 
 class Product

@@ -3,5 +3,8 @@
         "doctrine/migrations": "^2.0",
         "symfony/yaml": "^4.4",
         "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
     }
 }
